@@ -1,0 +1,39 @@
+.main-container{
+    width: 50%;
+    height: 100%;
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    .add-view-btn{
+        // width: 50%;
+        display: flex;
+        gap: 30px;
+
+
+        .common-btn{
+            margin-top: 20px;
+            padding: 10px;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.616);
+            border: 2px solid black;
+            font-size: 22px;
+            font-weight: 600;
+            background-color:#c12409;
+            line-height: 1.5;
+            cursor: pointer;
+
+        }
+        .green{
+            background-color: rgba(104, 174, 127, 0.899);
+        }
+        .add-todo-btn{
+
+        }
+
+    }
+}
